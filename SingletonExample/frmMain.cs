@@ -17,7 +17,8 @@ namespace SingletonExample
 
       private void cmdSubtraction_Click(object sender, System.EventArgs e)
       {
-
+         frmSubtraction f = new frmSubtraction();
+         f.Show();
       }
    }
 }
