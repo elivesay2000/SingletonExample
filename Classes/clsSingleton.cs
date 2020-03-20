@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SingletonExample
+namespace Classes
 {
-   class clsSingleton
+   public class clsSingleton
    {
       private  static clsSingleton  _instance;
       private  static object        syncLock = new object();
@@ -31,6 +31,11 @@ namespace SingletonExample
       public double AddTwoNumbers(double d1, double d2)
       {
          return d1 + d2;
+      }
+
+      public double SubtractTwoNumbers(double d1, double d2)
+      {
+         return d1 - d2;
       }
 
    }
